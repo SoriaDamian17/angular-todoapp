@@ -17,7 +17,15 @@ import { TodoAddComponent } from './components/todo/todo-add/todo-add.component'
     TodoAddComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports: [
+    FooterComponent,
+    TodoComponent,
+    TodosListComponent,
+    TodoFooterComponent,
+    TodoItemComponent,
+    TodoAddComponent
   ]
 })
 export class SharedModule { }
